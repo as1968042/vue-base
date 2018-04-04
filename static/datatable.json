@@ -1,0 +1,19 @@
+{
+  "result":[
+    {
+      "name": "高级动物",
+      "time": "03:37",
+      "singer": "窦唯",
+      "album": "摇滚中国乐势力"
+    },
+    {
+      "name": "谁伴我闯荡 - (电影《Beyond日记》插曲)",
+      "time": "04:13",
+      "singer": "Beyond",
+      "album": "25周年精选"
+    }
+  ],
+  "totalCount":2,
+  "pageSize":10,
+  "pageNo":1
+}
