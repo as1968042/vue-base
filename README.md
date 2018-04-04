@@ -1,20 +1,30 @@
-# vueeleadmin
+# vue基础框架
 
-> A Vue.js project
+> vue项目基础框架
 
-## Build Setup
+## 使用步骤
 
 ``` bash
-# install dependencies
+# 安装
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 分模块打包
+# 默认访问地址 localhost:8080/模块名/子模块名/index.html
+npm run dev 模块名
 
-# build for production with minification
+#更改端口
+npm run dev 模块名 --port=端口号
+
+#编译之后立即打开访问地址
+npm run dev 模块名 --watch
+
+# 打包编译
 npm run build
 
-# build for production and view the bundle analyzer report
+#更改打包之后的输出路径（默认为dist）
+npm run build --dist=目录名
+
+# 查看打包之后各部分体积详情
 npm run build --report
 ```
 
